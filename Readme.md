@@ -41,6 +41,7 @@ The goal is to understand the basics of network reconnaissance and potential sec
 
  ## Analyze Results
 Example Output:
+```plaintext
 Starting Nmap 7.97 ( https://nmap.org ) at 2025-08-04 12:16 +0530
 NSE: Loaded 158 scripts for scanning.
 NSE: Script Pre-scanning.
