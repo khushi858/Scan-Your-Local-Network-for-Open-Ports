@@ -22,25 +22,24 @@ The goal is to understand the basics of network reconnaissance and potential sec
 
 ## Identify Local IP Range
 
-- **Windows:**
-  ```bash
-  ipconfig
+   - **Windows:**
+           ```bash
+            ipconfig
 
-- **Linux (Ubuntu/Debian):**
-  ```bash
-  ifconfig
-  #or 
-  ip a
+      - **Linux (Ubuntu/Debian):**
+             ```bash
+                ifconfig
+                  #or 
+                ip a
 
-## Run TCP SYN Scan
+  ## Run TCP SYN Scan
+    ```bash
+            nmap -sS 192.168.1.0/24
 
-```bash
-nmap -sS 192.168.1.0/24
+            -sS → Stealth SYN scan
+            192.168.1.0/24 → Scan all IPs in the subnet
 
- -sS → Stealth SYN scan
- 192.168.1.0/24 → Scan all IPs in the subnet
-
-## Analyze Results
+ ## Analyze Results
 Example Output:
 Starting Nmap 7.97 ( https://nmap.org ) at 2025-08-04 12:16 +0530
 NSE: Loaded 158 scripts for scanning.
