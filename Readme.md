@@ -22,17 +22,17 @@ The goal is to understand the basics of network reconnaissance and potential sec
 
 ##  Identify Local IP Range
 
-### **Windows:**
+-  **Windows:**
 ```bash
 ipconfig
 
-### **Linux:**
+- **Linux:**
 ```bash
 ifconfig
 #or
 ip a
 
-## Run TCP SYN Scan
+### Run TCP SYN Scan
 
 ```bash
 nmap -sS 192.168.1.0/24
