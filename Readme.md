@@ -33,7 +33,7 @@ The goal is to understand the basics of network reconnaissance and potential sec
                 ip a
 
   ## Run TCP SYN Scan
-    ```bash
+   ```bash
             nmap -sS 192.168.1.0/24
 
             -sS → Stealth SYN scan
