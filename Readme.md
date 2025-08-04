@@ -24,7 +24,8 @@ The goal is to understand the basics of network reconnaissance and potential sec
 
 - **Windows:**
   ```bash
-ipconfig
+  ipconfig
+
 - **Linux (Ubuntu/Debian):**
   ```bash
   ifconfig
