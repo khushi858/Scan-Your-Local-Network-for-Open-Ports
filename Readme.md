@@ -20,23 +20,21 @@ The goal is to understand the basics of network reconnaissance and potential sec
   ```bash
   sudo apt update && sudo apt install nmap -y
 
-##  Identify Local IP Range
+## Identify Local IP Range
 
--  **Windows:**
-```bash
+- **Windows:**
+  ```bash
 ipconfig
+- **Linux (Ubuntu/Debian):**
+  ```bash
+  ifconfig
+  #or 
+  ip a
 
-- **Linux:**
-```bash
-ifconfig
-#or
-ip a
-
-### Run TCP SYN Scan
+## Run TCP SYN Scan
 
 ```bash
 nmap -sS 192.168.1.0/24
 
--sS → Stealth SYN scan
-192.168.1.0/24 → Scan all IPs in the subnet
-
+### -sS → Stealth SYN scan
+### 192.168.1.0/24 → Scan all IPs in the subnet
