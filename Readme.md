@@ -37,5 +37,21 @@ The goal is to understand the basics of network reconnaissance and potential sec
 ```bash
 nmap -sS 192.168.1.0/24
 
-### -sS → Stealth SYN scan
-### 192.168.1.0/24 → Scan all IPs in the subnet
+ -sS → Stealth SYN scan
+ 192.168.1.0/24 → Scan all IPs in the subnet
+
+## Analyze Results
+Example Output:
+Starting Nmap 7.97 ( https://nmap.org ) at 2025-08-04 12:16 +0530
+NSE: Loaded 158 scripts for scanning.
+NSE: Script Pre-scanning.
+Initiating NSE at 12:16
+Completed NSE at 12:16, 0.00s elapsed
+Initiating NSE at 12:16
+Completed NSE at 12:16, 0.00s elapsed
+Initiating NSE at 12:16
+Completed NSE at 12:16, 0.00s elapsed
+Initiating Ping Scan at 12:16
+...
+> *(The scan continues showing discovered hosts and their open ports.)*
+
